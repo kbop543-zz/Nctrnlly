@@ -2377,10 +2377,7 @@ blockquote {
 }
 
 .hero-paragraph {
-  width: 35%;
-  margin-bottom: 25px;
-  color: #f9f9f9;
-  font-size: 18px;
+  margin: auto;
 }
 
 .support-section {
