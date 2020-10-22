@@ -3446,13 +3446,9 @@ blockquote {
 }
 
 @media screen and (max-width: 991px) {
-  .container {
-    padding-right: 15px;
-    padding-left: 15px;
-  }
+
   .container.contact {
     position: static;
-    padding-bottom: 35px;
   }
   .nav-link {
     font-size: 30px;
@@ -3813,6 +3809,15 @@ blockquote {
     justify-content: flex-end;
     background-color: #100c16;
   }
+
+  #twitch-embed{
+    margin:auto;
+  
+    iframe{
+      
+    }
+  }
+
   .hero-heading {
     font-size: 30px;
   }
