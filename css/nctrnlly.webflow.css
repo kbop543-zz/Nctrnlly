@@ -3814,9 +3814,24 @@ blockquote {
     margin:auto;
   }
 
-  #twitch-embed iframe {
-    width:800px;
+  #twitch-embed {
+    position: relative;
   }
+  
+  #twitch-embed .twitch-video {
+    width: 75%;
+    padding-top: 42.1875%;
+  }
+
+  #twitch-embed .twitch-chat {
+    width: 25%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+  }
+
 
   .hero-heading {
     font-size: 30px;
