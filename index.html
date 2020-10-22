@@ -73,6 +73,18 @@
           within the "twitch-embed" root element.
         -->
         <script type="text/javascript">
+        if (window.screen.width <= 560) {
+          var embed = new Twitch.Embed("twitch-embed", {
+            width: "100%",
+            height: "480",
+            channel: "nctrnllyfm",
+            layout: "video",
+            autoplay: true,
+            // only needed if your site is also embedded on embed.example.com and othersite.example.com 
+            parent: []
+          });
+
+        }else{
           var embed = new Twitch.Embed("twitch-embed", {
             width: "800",
             height: "480",
@@ -83,7 +95,8 @@
             parent: []
           });
 
-          embed.addEventListener(Twitch.Embed.VIDEO_READY, () => {
+        }
+        embed.addEventListener(Twitch.Embed.VIDEO_READY, () => {
             var player = embed.getPlayer();
             player.play();
           });
