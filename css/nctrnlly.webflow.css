@@ -2721,6 +2721,11 @@ blockquote {
   align-items: center;
 }
 
+.footer-social-media{
+  margin:auto;
+
+}
+
 .social-footer-link {
   margin-left: 20px;
   -webkit-transition: all 300ms ease;
