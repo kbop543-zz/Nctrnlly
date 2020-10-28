@@ -22,7 +22,6 @@
   content: "\e600";
 }
 
-* { border: 1px solid red; }
 
 .w-icon-slider-left:before {
   content: "\e601";
