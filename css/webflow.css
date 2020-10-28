@@ -30,6 +30,11 @@
 .w-icon-nav-menu:before {
   content: "\e602";
 }
+
+.twitch-wrapper{
+  padding: 40px;
+  background-color: #100c16;
+}
 .w-icon-arrow-down:before,
 .w-icon-dropdown-toggle:before {
   content: "\e603";
@@ -49,6 +54,8 @@ html {
   height: 100%;
 }
 body {
+  margin: 0;
+  min-height: 100%;
   background-color: #fff;
   font-family: Arial, sans-serif;
   font-size: 14px;
